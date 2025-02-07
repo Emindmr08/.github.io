@@ -11,14 +11,14 @@ header {
     background-color: #333;
     color: white;
     padding: 10px 0;
-    text-align: center;
+    text-align: center; /* Header'ı olduğu gibi tutuyoruz */
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: center;
+    text-align: center; /* Nav menüsünü olduğu gibi tutuyoruz */
 }
 
 nav ul li {
@@ -33,7 +33,7 @@ nav ul li a {
 
 main {
     padding: 20px;
-    text-align: left;
+    text-align: left; /* Sadece main kısmını sola hizalıyoruz */
     flex-grow: 1;
     padding-bottom: 60px;
 }
@@ -65,7 +65,7 @@ form button {
 footer {
     background-color: #333;
     color: white;
-    text-align: center;
+    text-align: center; /* Footer'ı olduğu gibi tutuyoruz */
     padding: 10px 0;
     width: 100%;
 }
