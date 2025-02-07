@@ -2,24 +2,22 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    min-height: 100vh; /* Sayfanın yüksekliğini 100vh yaparak footer'ın alt kısmı sayfa boyutuna göre uyum sağlıyor */
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    text-align: left; /* Body'de genel olarak sola hizalama */
 }
 
 header {
     background-color: #333;
     color: white;
     padding: 10px 0;
-    text-align: center; /* Header'ı ortada tutuyoruz */
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: center; /* Navigasyon menüsünü ortada tutuyoruz */
+    text-align: center;
 }
 
 nav ul li {
@@ -35,25 +33,25 @@ nav ul li a {
 
 a {
     color: #333;
-    text-decoration: none;
-    padding: 8px 16px;
-    border: 2px solid #bbb;
-    border-radius: 5px;
-    margin: 5px;
-    display: inline-block;
-    transition: all 0.3s ease;
+    text-decoration: none; 
+    padding: 8px 16px; 
+    border: 2px solid #bbb; 
+    border-radius: 5px; 
+    margin: 5px; 
+    display: inline-block; 
+    transition: all 0.3s ease; 
 }
 
 a:hover {
-    background-color: #bbb;
-    color: white;
+    background-color: #bbb; 
+    color: white; 
 }
 
 main {
     padding: 20px;
-    text-align: left; /* Main kısmını sola hizalıyoruz */
+    text-align: center;
     flex-grow: 1;
-    padding-bottom: 60px;
+    padding-bottom: 60px; 
 }
 
 form {
@@ -83,8 +81,8 @@ form button {
 footer {
     background-color: #333;
     color: white;
-    text-align: center; /* Footer'ı ortada tutuyoruz */
-    padding: 20px 0;
+    text-align: center;
+    padding: 20px 0; 
     width: 100%;
     position: relative;
     bottom: 0;
@@ -96,5 +94,5 @@ footer a {
 }
 
 footer a:hover {
-    color: white;
+    color: white; 
 }
