@@ -5,19 +5,21 @@ body {
     min-height: 100vh; /* Sayfanın yüksekliğini 100vh yaparak footer'ın alt kısmı sayfa boyutuna göre uyum sağlıyor */
     display: flex;
     flex-direction: column;
+    text-align: left; /* Body'de genel olarak sola hizalama */
 }
 
 header {
     background-color: #333;
     color: white;
     padding: 10px 0;
+    text-align: center; /* Header'ı ortada tutuyoruz */
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: center;
+    text-align: center; /* Navigasyon menüsünü ortada tutuyoruz */
 }
 
 nav ul li {
@@ -28,30 +30,30 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    padding: 8px 16px; /* Navigasyon menüsündeki linklere stil uygulamıyoruz */
+    padding: 8px 16px;
 }
 
 a {
-    color: #333; /* Diğer linklerin rengi koyu gri olacak */
-    text-decoration: none; /* Alt çizgi kaldırılıyor */
-    padding: 8px 16px; /* İç boşluk ekliyoruz */
-    border: 2px solid #bbb; /* Gri renkli bir çerçeve ekliyoruz */
-    border-radius: 5px; /* Kenarları yuvarlaklaştırıyoruz */
-    margin: 5px; /* Linklerin arasına boşluk ekliyoruz */
-    display: inline-block; /* Linkleri satır içi kutulara dönüştürüyoruz */
-    transition: all 0.3s ease; /* Geçiş efekti */
+    color: #333;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 2px solid #bbb;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+    transition: all 0.3s ease;
 }
 
 a:hover {
-    background-color: #bbb; /* Hover arka plan rengini gri yapıyoruz */
-    color: white; /* Hover durumunda yazı rengini beyaz yapıyoruz */
+    background-color: #bbb;
+    color: white;
 }
 
 main {
     padding: 20px;
-    text-align: center;
-    flex-grow: 1; /* Ana içeriğin kalan alanı almasını sağlıyor */
-    padding-bottom: 60px; /* Footer için yeterli boşluk ekledik */
+    text-align: left; /* Main kısmını sola hizalıyoruz */
+    flex-grow: 1;
+    padding-bottom: 60px;
 }
 
 form {
@@ -79,10 +81,10 @@ form button {
 }
 
 footer {
-    background-color: #333; /* Footer arka plan rengi */
-    color: white; /* Footer yazısı beyaz olacak */
-    text-align: center;
-    padding: 20px 0; /* Padding artırıldı, yazı daha belirgin */
+    background-color: #333;
+    color: white;
+    text-align: center; /* Footer'ı ortada tutuyoruz */
+    padding: 20px 0;
     width: 100%;
     position: relative;
     bottom: 0;
@@ -90,9 +92,9 @@ footer {
 }
 
 footer a {
-    color: #ddd; /* Footer'daki linklerin rengi */
+    color: #ddd;
 }
 
 footer a:hover {
-    color: white; /* Hoverda footer link rengi beyaz */
+    color: white;
 }
